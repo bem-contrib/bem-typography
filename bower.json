@@ -1,0 +1,28 @@
+{
+  "name": "bem-typography",
+  "version": "1.0.0",
+  "description": "Library for right work with typography in BEM methodology",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/verybigman/bem-typography.git"
+  },
+  "keywords": [
+    "bem",
+    "stylus",
+    "typography"
+  ],
+  "authors": [
+    "Anton Winogradov <winogradovaa@gmail.com>"
+  ],
+  "ignore": [
+    "node_modules",
+    "libs"
+  ],
+  "dependencies": {
+    "bem-core": "2.5.1"
+  },
+  "devDependencies": {
+    "bem-pr": "~0.10.0"
+  },
+  "license": "MIT"
+}
