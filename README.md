@@ -3,7 +3,7 @@
 
 This README also available in [russian](https://github.com/verybigman/bem-content/blob/master/README.ru.md).
 
-Library for work with typography in BEM methodology.
+Library for work with typography in BEM methodology. Inspired by [Gridlover](http://www.gridlover.net/app/).
 
 ## Dependencies
 
@@ -35,7 +35,7 @@ Lib have block `calc` for calculating fonts sizes. Any sizes writed in rem. It's
 
 ## Customize
 
-Lib very simple to customize. You can configure everything. 
+Lib very simple to customize. You can configure everything.
 To do this you need create block `variables` on one of levels in your project and override any variable in it. So, list of variables you can watch [here](https://github.com/verybigman/bem-content/blob/master/common.blocks/variables/variables.styl).
 
 ### Authors

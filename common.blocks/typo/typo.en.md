@@ -1,18 +1,15 @@
 # Typo
 
-Base typography stylesheets. Inspired by [Gridlover](http://www.gridlover.net/app/).
+Base typography stylesheets for native tags without classes.
 
 ## Block usage
 
-Add block `typo` as deps to block `page`.
+Add block `typo` in `page.deps.js`.
 
 ``` js
-({
-    mustDeps : [
-
-    ],
+[{
     shouldDeps : [
         { block : 'typo' }
     ]
-})
+}]
 ```
