@@ -1,20 +1,14 @@
 block('heading')(
 
-    def().match(function() { return !this._defHeadingApplied; })(function() {
+    tag()(function() {
+        return 'h%'.replace('%', this.ctx.lvl || 1);
+    }),
 
-        this._defHeadingApplied = true;
+    def()(function() {
+        var ctx = this.ctx;
 
-        var lvl = this.ctx.lvl || 1;
+        ctx.mods = this.extend(this.ctx.mods, { lvl : this.ctx.lvl || 1 }),
 
-        applyCtx({
-            block : this.block,
-            tag : 'h' + lvl,
-            mods : this.extend(this.ctx.mods, { lvl : lvl }),
-            mix : this.ctx.mix,
-            content : this.ctx.content
-        });
-
-        this._defHeadingApplied = false;
-
+        applyCtx(ctx);
     })
 );

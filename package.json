@@ -43,7 +43,7 @@
     "deps": "bower i",
     "compiled": "find . -iname '*.styl' | xargs stylus",
     "build": "npm run build-${TEST_SCOPE:-all}",
-    "build-all": "npm run deps && magic make common.examples common.tests common.docs *.pages/*",
+    "build-all": "npm run deps && magic make common.examples common.tests common.docs *.bundles/*",
     "build-specs": "npm run deps",
     "build-tmpls": "npm run deps",
     "test": "npm run build && npm run ${TEST_SCOPE:-test-all}",

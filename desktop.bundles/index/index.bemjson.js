@@ -9,35 +9,11 @@
         {
             elem : 'header',
             content : [
-                {
-                    block : 'github-ribbon',
-                    mods : { theme : 'darkblue', right : true },
-                    url : '//github.com/verybigman/bem-content'
-                },
                 { block : 'heading', content : 'BEM Typography' },
                 {
                     block : 'paragraph',
                     mods : { type : 'lead' },
-                    content : [
-                        'Library for simple work with static content.'
-                    ]
-                },
-                {
-                    block : 'github-button',
-                    mods : { type : 'star', count : true },
-                    user : 'verybigman',
-                    repo : 'bem-content'
-                },
-                {
-                    block : 'twitter',
-                    mods : { widget : 'share' },
-                    url : 'https://github.com/verybigman/bem-content',
-                    text : 'Отличный набор блоков для типографики в терминах БЭМ',
-                    via : 'verybigman',
-                    related : 'bem_ru',
-                    hashtags : 'bem,b_',
-                    size : 'small',
-                    lang : 'ru'
+                    content : 'Library for simple work with typography.'
                 }
             ]
         },
@@ -46,11 +22,12 @@
             content : [
                 {
                     block : 'section',
+                    tag : 'section',
                     content : [
                         {
                             block : 'heading',
                             lvl : 2,
-                            mix : [{ block : 'section', elem : 'title' }],
+                            mix : { block : 'section', elem : 'title' },
                             content : 'Headings'
                         },
                         {
@@ -73,11 +50,12 @@
                 },
                 {
                     block : 'section',
+                    tag : 'section',
                     content : [
                         {
                             block : 'heading',
                             lvl : 2,
-                            mix : [{ block : 'section', elem : 'title' }],
+                            mix : { block : 'section', elem : 'title' },
                             content : 'Paragraphs'
                         },
                         {
@@ -118,9 +96,7 @@
                                 },
                                 {
                                     block : 'paragraph',
-                                    content : [
-                                        'Paragraphs sizes also customizable'
-                                    ]
+                                    content : 'Paragraphs sizes also customizable'
                                 }
                             ]
                         }
@@ -128,11 +104,12 @@
                 },
                 {
                     block : 'section',
+                    tag : 'section',
                     content : [
                         {
                             block : 'heading',
                             lvl : 2,
-                            mix : [{ block : 'section', elem : 'title' }],
+                            mix : { block : 'section', elem : 'title' },
                             content : 'Lists'
                         },
                         {
@@ -172,7 +149,8 @@
                                 {
                                     block : 'paragraph',
                                     content : [
-                                        'BEM Content library add wrapper for image for caption writing and HTML5 semantic'
+                                        'BEM Content library add wrapper for ',
+                                        'image for caption writing and HTML5 semantic'
                                     ]
                                 }
                             ]
@@ -181,11 +159,12 @@
                 },
                 {
                     block : 'section',
+                    tag : 'section',
                     content : [
                         {
                             block : 'heading',
                             lvl : 2,
-                            mix : [{ block : 'section', elem : 'title' }],
+                            mix : { block : 'section', elem : 'title' },
                             content : 'Blockquotes'
                         },
                         {

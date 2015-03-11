@@ -1,8 +1,5 @@
-({
+[{
     mustDeps : [
         { block : 'paragraph' }
-    ],
-    shouldDeps : [
-
     ]
-})
+}]

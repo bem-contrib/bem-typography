@@ -6,7 +6,7 @@ block('blockquote')(
         return [
             {
                 block : 'paragraph',
-                mix : [{ block : this.block, elem : 'content' }],
+                mix : { block : this.block, elem : 'content' },
                 content : this.ctx.content
             },
             this.ctx.source && {
@@ -15,7 +15,7 @@ block('blockquote')(
             }
         ];
     }),
-    
+
     elem('footer').tag()('footer')
 
 );
