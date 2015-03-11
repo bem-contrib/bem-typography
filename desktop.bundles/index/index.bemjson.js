@@ -184,27 +184,6 @@
                     ]
                 }
             ]
-        },
-        {
-            elem : 'footer',
-            content : [
-                {
-                    block : 'paragraph',
-                    content : [
-                        {
-                            block : 'link',
-                            url : '//bem.info',
-                            content : [
-                                {
-                                    block : 'image',
-                                    url : '//rawgit.com/bem/bem-identity/master/sign/sign.png',
-                                    width : '50px'
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
         }
     ]
 })
