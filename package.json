@@ -1,8 +1,7 @@
 {
   "private": true,
   "dependencies": {
-    "bem-environ": "1.4.0",
-    "marked": "^0.3.2"
+    "bem-environ": "1.4.0"
   },
   "devDependencies": {
     "bem": "~0.9.0",
@@ -43,7 +42,7 @@
     "deps": "bower i",
     "compiled": "find . -iname '*.styl' | xargs stylus",
     "build": "npm run build-${TEST_SCOPE:-all}",
-    "build-all": "npm run deps && magic make common.examples common.tests common.docs *.bundles/*",
+    "build-all": "npm run deps && magic make common.examples *.bundles/*",
     "build-specs": "npm run deps",
     "build-tmpls": "npm run deps",
     "test": "npm run build && npm run ${TEST_SCOPE:-test-all}",
