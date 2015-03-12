@@ -1,6 +1,5 @@
 # bem-typography
 
-[![Join the chat at https://gitter.im/verybigman/bem-typography](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/verybigman/bem-typography?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/verybigman/bem-typography?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This README also available in [russian](https://github.com/verybigman/bem-content/blob/master/README.ru.md).
