@@ -6,11 +6,11 @@ block('paragraph')(
         return [
             this.ctx.mark && {
                 elem : 'marker',
+                tag : 'span',
                 content : this.ctx.mark
             },
             applyNext()
         ];
-    }),
+    })
 
-    elem('marker').tag()('span')
 );

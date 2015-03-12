@@ -9,6 +9,6 @@ block('heading')(
 
         ctx.mods = this.extend(this.ctx.mods, { lvl : this.ctx.lvl || 1 }),
 
-        applyCtx(ctx);
+        applyCtx([ctx]);
     })
 );

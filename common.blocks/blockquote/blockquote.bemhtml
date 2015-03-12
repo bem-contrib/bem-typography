@@ -11,11 +11,10 @@ block('blockquote')(
             },
             this.ctx.source && {
                 elem : 'footer',
+                tag : 'footer',
                 content : this.ctx.source
             }
         ];
-    }),
-
-    elem('footer').tag()('footer')
+    })
 
 );

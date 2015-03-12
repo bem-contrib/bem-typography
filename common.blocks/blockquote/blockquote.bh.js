@@ -6,18 +6,15 @@ module.exports = function(bh) {
         ctx.content([
             {
                 block : 'paragraph',
-                mix : [{ block : ctx.block, elem : 'content' }],
+                mix : { block : ctx.block, elem : 'content' },
                 content : ctx.content()
             },
             json.source && {
                 elem : 'footer',
+                tag : 'footer',
                 content : json.source
             }
         ]);
-    });
-
-    bh.match('blockquote__footer', function(ctx) {
-        ctx.tag('footer');
     });
 
 };

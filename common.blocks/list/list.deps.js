@@ -1,5 +1,6 @@
 [{
     shouldDeps : [
-        { elem : 'item' }
+        { elem : 'item' },
+        { mods : { type : 'ordered' } }
     ]
 }]

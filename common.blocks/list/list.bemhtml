@@ -8,11 +8,11 @@ block('list') (
             return [
                 {
                     elem : 'item',
+                    tag : 'li',
                     content : item
                 }
             ];
         });
-    }),
+    })
 
-    elem('item').tag()('li')
 );

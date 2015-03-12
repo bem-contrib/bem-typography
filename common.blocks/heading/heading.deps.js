@@ -1,5 +1,5 @@
 [{
-    mustDeps : [
-        { block : 'calc', elems : 'font' }
+    shouldDeps : [
+        { elem : 'marker' }
     ]
 }]
