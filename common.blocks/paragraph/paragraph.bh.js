@@ -10,7 +10,7 @@ module.exports = function(bh) {
                 content : json.mark
             },
             ctx.content()
-        ]);
+        ], true);
     });
 
 };

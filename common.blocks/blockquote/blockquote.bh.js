@@ -6,7 +6,7 @@ module.exports = function(bh) {
         ctx.content([
             {
                 block : 'paragraph',
-                mix : { block : ctx.block, elem : 'content' },
+                mix : { block : json.block, elem : 'content' },
                 content : ctx.content()
             },
             json.source && {
@@ -14,7 +14,7 @@ module.exports = function(bh) {
                 tag : 'footer',
                 content : json.source
             }
-        ]);
+        ], true);
     });
 
 };
