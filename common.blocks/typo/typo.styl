@@ -1,7 +1,5 @@
-for $h in 1..4
-{
-    h{$h}
-    {
+for $h in 1..4 {
+    h{$h} {
         font-size:     $rem_font_size * lookup('$h' + $h + '_scale');
         line-height:   $rem_line_height * lookup('$h' + $h + '_scale');
         margin-top:    2 * $rem_font_size;
@@ -9,8 +7,7 @@ for $h in 1..4
     }
 }
 
-p
-{
+p {
     margin-top:    $rem_line_height;
     margin-bottom: $rem_line_height;
     font-size:     $rem_font_size;
