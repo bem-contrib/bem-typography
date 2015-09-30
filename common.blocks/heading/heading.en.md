@@ -5,10 +5,10 @@ Block `heading` need for create h1, h2, h3, h4 tags.
 ## Block usage
 
 ``` js
-{ block : 'heading', lvl : 1, content : 'Level 1' },
-{ block : 'heading', lvl : 2, content : 'Level 2' },
-{ block : 'heading', lvl : 3, content : 'Level 3' },
-{ block : 'heading', lvl : 4, content : 'Level 4' }
+{ block : 'heading', mods : { size : 'xl' }, content : 'Level 1' },
+{ block : 'heading', mods : { size : 'l' }, content : 'Level 2' },
+{ block : 'heading', mods : { size : 'm' }, content : 'Level 3' },
+{ block : 'heading', mods : { size : 's' }, content : 'Level 4' }
 ```
 
 You can find all settings for styling in 'variables' block.
@@ -19,15 +19,15 @@ The following custom fields could be specified in BEMJSON declaration of the blo
 
 <table>
     <tr>
-        <th>Custom field name</th>
+        <th>Mods</th>
         <th>Type</th>
         <th>Description</th>
     </tr>
     <tr>
-        <td>lvl</td>
+        <td>size</td>
         <td>
-            <code>Integer</code>
+            <code>String</code>
         </td>
-        <td>Heading level. Use on of 1, 2, 3 or 4.</td>
+        <td>Heading level. Use on xl, l, m, or s for h1, h2, h3, h4 levels.</td>
     </tr>
 </table>
