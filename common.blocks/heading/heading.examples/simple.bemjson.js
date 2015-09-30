@@ -7,10 +7,10 @@
     ],
     content : [
         { block : 'heading', content : 'Default heading' },
-        { block : 'heading', lvl : 1, content : 'Heading of level 1' },
-        { block : 'heading', lvl : 2, content : 'Heading of level 2' },
-        { block : 'heading', lvl : 3, content : 'Heading of level 3' },
-        { block : 'heading', lvl : 4, content : 'Heading of level 4' },
+        { block : 'heading', mods : { size : 's' }, content : 'Heading of level 1' },
+        { block : 'heading', mods: { size: 'm' }, content : 'Heading of level 2' },
+        { block : 'heading', mods: { size: 'l' }, content : 'Heading of level 3' },
+        { block : 'heading', mods: { size: 'xl' }, content : 'Heading of level 4' },
         { tag : 'hr' },
         {
             block : 'heading',

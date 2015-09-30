@@ -1,14 +1,7 @@
 block('heading')(
-
-    tag()(function() {
-        return 'h%'.replace('%', this.ctx.lvl || 1);
-    }),
-
-    def()(function() {
-        var ctx = this.ctx;
-
-        ctx.mods = this.extend(this.ctx.mods, { lvl : this.ctx.lvl || 1 }),
-
-        applyCtx([ctx]);
-    })
+    tag()('h1'),
+    mod('size', 's').tag()('h4'),
+    mod('size', 'm').tag()('h3'),
+    mod('size', 'l').tag()('h2'),
+    mod('size', 'xl').tag()('h1')
 );

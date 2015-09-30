@@ -26,17 +26,17 @@
                     content : [
                         {
                             block : 'heading',
-                            lvl : 2,
+                            mods : { size : 'l' },
                             mix : { block : 'section', elem : 'title' },
                             content : 'Headings'
                         },
                         {
                             elem : 'content',
                             content : [
-                                { block : 'heading', content : 'h1. Level 1' },
-                                { block : 'heading', lvl : 2, content : 'h2. Level 2' },
-                                { block : 'heading', lvl : 3, content : 'h3. Level 3' },
-                                { block : 'heading', lvl : 4, content : 'h4. Level 4' },
+                                { block : 'heading', mods : { size : 'xl' }, content : 'h1. Level 1' },
+                                { block : 'heading', mods : { size : 'l' }, content : 'h2. Level 2' },
+                                { block : 'heading', mods : { size : 'm' }, content : 'h3. Level 3' },
+                                { block : 'heading', mods : { size : 's' }, content : 'h4. Level 4' },
                                 {
                                     block : 'paragraph',
                                     content : [
@@ -54,7 +54,7 @@
                     content : [
                         {
                             block : 'heading',
-                            lvl : 2,
+                            mods : { size : 'l' },
                             mix : { block : 'section', elem : 'title' },
                             content : 'Paragraphs'
                         },
@@ -108,7 +108,7 @@
                     content : [
                         {
                             block : 'heading',
-                            lvl : 2,
+                            mods : { size : 'l' },
                             mix : { block : 'section', elem : 'title' },
                             content : 'Lists'
                         },
@@ -163,7 +163,7 @@
                     content : [
                         {
                             block : 'heading',
-                            lvl : 2,
+                            mods : { size : 'l' },
                             mix : { block : 'section', elem : 'title' },
                             content : 'Blockquotes'
                         },
